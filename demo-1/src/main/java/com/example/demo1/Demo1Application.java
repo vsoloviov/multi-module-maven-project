@@ -11,6 +11,7 @@ public class Demo1Application {
 
     @RequestMapping("/")
     String home() {
+        // TODO this is a todo message for the Jenkins Task Scanner plugin
         return "Hello World!";
     }
 
