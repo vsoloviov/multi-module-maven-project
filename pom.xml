@@ -26,6 +26,7 @@
         <project.scm.id>github.com</project.scm.id>
     </properties>
     <modules>
+        <module>shared-core</module>
         <module>demo-1</module>
         <module>demo-2</module>
     </modules>

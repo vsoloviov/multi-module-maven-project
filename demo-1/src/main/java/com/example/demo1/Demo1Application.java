@@ -1,5 +1,6 @@
 package com.example.demo1;
 
+import com.example.core.Core;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,7 +13,7 @@ public class Demo1Application {
     @RequestMapping("/")
     String home() {
         // TODO this is a todo message for the Jenkins Task Scanner plugin
-        return "Hello World!";
+        return new Core().sayHello("World");
     }
 
     public static void main(String[] args) {

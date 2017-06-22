@@ -8,12 +8,12 @@
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.example.demo1</groupId>
-	<artifactId>demo-1</artifactId>
+	<groupId>com.example.core</groupId>
+	<artifactId>shared-core</artifactId>
 	<packaging>jar</packaging>
 
-	<name>demo-1</name>
-	<description>Demo project 1 for Spring Boot</description>
+	<name>shared-core</name>
+	<description>Core module shared by demo-1 and demo-2</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,21 +22,6 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.example.core</groupId>
-			<artifactId>shared-core</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
 	</dependencies>
 
 	<build>
@@ -55,12 +40,6 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
 		</plugins>
 	</build>
-
-
 </project>
