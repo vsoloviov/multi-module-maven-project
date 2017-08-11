@@ -4,7 +4,7 @@
 
     <groupId>com.example</groupId>
     <artifactId>demo-parent</artifactId>
-    <version>0.0.29-SNAPSHOT</version>
+    <version>0.0.29</version>
     <packaging>pom</packaging>
 
     <name>demo-parent</name>
@@ -33,7 +33,7 @@
     <scm>
         <connection>scm:git:https://github.com/cyrille-leclerc/multi-module-maven-project.git</connection>
         <url>https://github.com/cyrille-leclerc/multi-module-maven-project.git</url>
-      <tag>HEAD</tag>
+      <tag>demo-parent-0.0.29</tag>
   </scm>
     <build>
         <plugins>
