@@ -13,7 +13,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.4.RELEASE</version>
+        <version>2.1.6.RELEASE</version>
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
     <properties>
@@ -46,12 +46,12 @@
     </build>
     <distributionManagement>
         <snapshotRepository>
-            <id>nexus.beescloud.com</id>
-            <url>https://nexus.beescloud.com/content/repositories/snapshots/</url>
+            <id>nexus3.beescloud.com</id>
+            <url>https://nexus3.beescloud.com/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
-            <id>nexus.beescloud.com</id>
-            <url>https://nexus.beescloud.com/content/repositories/releases/</url>
+            <id>nexus3.beescloud.com</id>
+            <url>https://nexus3.beescloud.com/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
 </project>
